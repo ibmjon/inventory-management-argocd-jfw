@@ -7,5 +7,11 @@ global:
   
   ingress:
     enabled: true
+    appid:
+        enabled: true
+        requestType: web
+        binding:
+            name: "binding-mooc-cpat-ocp01-appid"
+            namespace: tools
     tlsSecretName: mooc-cpat-ocp01-c-750890-afb9c6047b062b44e3f1b3ecfeba4309-0000
 
