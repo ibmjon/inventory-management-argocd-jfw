@@ -2,7 +2,7 @@ global:
   ingressSubdomain: mooc-cpat-ocp01-c-750890-afb9c6047b062b44e3f1b3ecfeba4309-0000.us-south.containers.appdomain.cloud
   tlsSecretName: mooc-cpat-ocp01-c-750890-afb9c6047b062b44e3f1b3ecfeba4309-0000
 
-<app-chart-name>:
+inventory-management-ui-jfw:
   replicaCount: 3
   
   ingress:
