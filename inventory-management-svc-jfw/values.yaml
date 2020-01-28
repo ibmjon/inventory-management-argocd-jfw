@@ -3,7 +3,7 @@ global:
   tlsSecretName: mooc-cpat-ocp01-c-750890-afb9c6047b062b44e3f1b3ecfeba4309-0000
 
 inventory-management-svc-jfw:
-  replicaCount: 4
+  replicaCount: 3
   
   ingress:
     enabled: true
